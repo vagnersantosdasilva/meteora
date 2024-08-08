@@ -1,7 +1,41 @@
-.texto-menor{
+.texto-menor {
     font-size: 13px;
+    color: white;
 }
 
-.facilidades {
+.divs-facilidades {
     width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.botao-lilas {
+    background-color: #9353FF;
+    color: white;
+}
+
+.botao-lilas:hover{
+    color:white;
+}
+
+.verde-limao {
+    color: #DAFF01;
+}
+
+.texto-bg-dark{
+    color: white;
+}
+
+footer{
+    background: black;
+    color: white;
+}
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
 }
